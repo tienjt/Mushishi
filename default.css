@@ -1,0 +1,568 @@
+/* -----------------------------HOME PAGE----------------------------- */
+
+/* Page Layout Styles */
+
+* {
+padding: 0;
+margin: 0;
+border: 0;
+}
+
+body {
+background-image: url("background.jpg");
+background-attachment: fixed;
+background-size: 100% auto;
+}
+
+div.blended_grid {
+display: block;
+width: 900px;
+overflow: auto;
+margin: 30px auto 0 auto;
+}
+
+div.container {
+display: table;	
+}
+
+/* Header Styles */
+
+pageHeader {
+float: right;
+clear: none;
+height: 250px;
+width: 900px;
+}
+
+/* Navbar Styles */
+
+nav {
+background-color: darkgreen;
+float: left;
+height: 50px;
+width: 900px;
+}
+
+nav ul {
+list-style-type: none;
+}
+
+nav ul li {
+float: left;	
+}
+
+nav ul li a {
+display: inline-block;
+padding: 15px;
+text-decoration: none;
+text-transform: capitalize;
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+letter-spacing: 2px;
+color: white;
+width: 195px;
+height: 20px;
+}
+
+nav ul li a:hover {
+color: yellowgreen;
+background-color: green;
+}
+
+nav ul li a.active {
+background-color: green;	
+}
+
+/* Left Content Styles */
+
+div.contentleft {
+display: table-cell;
+vertical-align: top;
+background-color: rgb(120,214,131);
+float: none;
+width: 600px;
+}
+
+section#about {
+padding-left: 10px;	
+padding-right: 10px;
+padding-top: 20px;
+padding-bottom: 5px;
+}
+
+section#plot {
+padding-left: 10px;	
+padding-right: 10px;
+padding-top: 5px;
+padding-bottom: 20px;
+}
+
+hr {
+background-color: gray; 
+margin-left: auto;
+margin-right: auto;
+height: 1px;
+width: 90%;
+}
+
+/* Right Content Styles */
+
+div.contentright {
+display: table-cell;
+vertical-align: top;
+background-color: rgb(120,214,131);
+float: none;
+width: 300px;
+}
+
+table.infobox {
+border-collapse: separate;
+border-spacing: 5px;
+margin-bottom: 15px;
+padding-right: 10px;
+}
+
+table.infobox caption {	
+font-size: 18px;
+padding-top: 20px;	
+}
+
+table.infobox tr th img {
+border: 2px solid gray;
+}
+
+table.infobox tr th.tv {
+border: 1px solid gray;
+color: white;
+background-color: darkgreen;	
+}
+
+table.infobox tr td {
+border: 1px solid gray;
+padding: 2px;
+}
+
+table.infobox tr td.genre {
+background-color: darkgreen;
+color: white;
+}
+
+table.infobox tr td.director {
+background-color: darkgreen;
+color: white;
+}
+
+table.infobox tr td.studio {
+background-color: darkgreen;
+color: white;
+}
+
+table.infobox tr td.license {
+background-color: darkgreen;
+color: white;
+}
+
+table.infobox tr td.network {
+background-color: darkgreen;
+color: white;
+}
+
+table.infobox tr td.run {
+background-color: darkgreen;
+color: white;
+}
+
+table.infobox tr td.episodes {
+background-color: darkgreen;
+color: white;
+}
+
+/* Footer Styles */
+
+pageFooter {
+background-color: rgb(4,104,138);
+float: left;
+clear: none;
+height: 60px;
+width: 900px;
+}
+
+pageFooter ul {
+list-style-type: none;
+}
+
+pageFooter ul li {
+display: inline-block;
+float: left;
+padding: 10px;
+color: white;
+}
+
+pageFooter ul li.designed {
+padding-right: 150px;	
+}
+
+pageFooter ul li a.contact {
+color: white;
+}
+
+pageFooter ul li a.contact:hover {
+color: lightgreen;	
+}	
+
+pageFooter ul.copyright {
+float: right;
+padding-top: 10px;
+}
+
+
+
+
+/* ------------------------------EPISODES PAGE----------------------------- */
+
+/* Page Layout Styles */
+
+* {
+padding: 0;
+margin: 0;
+border: 0;
+}
+
+body {
+background-image: url("background.jpg");
+background-attachment: fixed;
+background-size: 100% auto;
+}
+
+div.blended_grid {
+display: block;
+width: 900px;
+overflow: auto;
+margin: 30px auto 0 auto;
+}
+
+/* Header Styles */
+
+pageHeader {
+float: right;
+clear: none;
+height: 250px;
+width: 900px;
+}
+
+/* Navbar Styles */
+
+nav {
+background-color: darkgreen;
+float: left;
+height: 50px;
+width: 900px;
+}
+
+nav ul {
+list-style-type: none;
+}
+
+nav ul li {
+float: left;	
+}
+
+nav ul li a {
+display: inline-block;
+padding: 15px;
+text-decoration: none;
+text-transform: capitalize;
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+letter-spacing: 2px;
+color: white;
+width: 195px;
+height: 20px;
+}
+
+nav ul li a:hover {
+color: yellowgreen;
+background-color: green;
+}
+
+nav ul li a.active {
+background-color: green;	
+}
+
+/* Content Styles */
+
+pageContentLeft {
+background-color: rgb(120,214,131);
+float: left;
+clear: none;
+height: auto;
+width: 900px;
+}
+
+table.episodes {
+border-collapse: separate;
+width: 98%;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 10px;
+}
+
+table.episodes caption {	
+font-size: 18px;
+padding-top: 20px;	
+padding-bottom: 20px;
+}
+
+table.episodes thead tr th {
+background-color: rgb(120,214,131);
+color: black;
+padding-bottom: 5px;
+}
+
+table.episodes tbody tr td {
+border: 1px solid gray;
+padding: 10px;
+}
+
+table.episodes tr:nth-child(odd) {
+background-color: darkgreen;
+color: white;
+font-family: "Trebuchet MS", Helvetica, sans-serif
+}
+
+table.episodes tr:nth-child(even) {
+background-color: lightgreen;
+}
+
+a#back {
+display: inline-block;
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+text-transform: uppercase;
+font-size: 12px;
+color: rgb(1,64,10);
+padding-left: 10px;
+text-decoration: none;
+margin-bottom: 15px;
+}
+
+
+a#back:hover {
+color: green;
+}
+
+/* Footer Styles */
+
+pageFooter {
+background-color: rgb(4,104,138);
+float: left;
+clear: none;
+height: 60px;
+width: 900px;
+}
+
+pageFooter ul {
+list-style-type: none;
+}
+
+pageFooter ul li {
+display: inline-block;
+float: left;
+padding: 10px;
+color: white;
+}
+
+pageFooter ul li.designed {
+padding-right: 150px;	
+}
+
+pageFooter ul li a.contact {
+color: white;
+}
+
+pageFooter ul li a.contact:hover {
+color: lightgreen;	
+}	
+
+pageFooter ul.copyright {
+float: right;
+padding-top: 10px;
+}
+
+
+
+
+/* ------------------------------MUSHI SPECIES PAGE----------------------------- */
+
+/* Page Layout Styles */
+
+* {
+padding: 0;
+margin: 0;
+border: 0;
+}
+
+body {
+background-image: url("background.jpg");
+background-attachment: fixed;
+background-size: 100% auto;
+}
+
+div.blended_grid {
+display: block;
+width: 900px;
+overflow: auto;
+margin: 30px auto 0 auto;
+}
+
+/* Header Styles */
+
+pageHeader {
+float: right;
+clear: none;
+height: 250px;
+width: 900px;
+}
+
+/* Navbar Styles */
+
+nav {
+background-color: darkgreen;
+float: left;
+height: 50px;
+width: 900px;
+}
+
+nav ul {
+list-style-type: none;
+}
+
+nav ul li {
+float: left;	
+}
+
+nav ul li a {
+display: inline-block;
+padding: 15px;
+text-decoration: none;
+text-transform: capitalize;
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+letter-spacing: 2px;
+color: white;
+width: 195px;
+height: 20px;
+}
+
+nav ul li a:hover {
+color: yellowgreen;
+background-color: green;
+}
+
+nav ul li a.active {
+background-color: green;	
+}
+
+/* Content Styles */
+
+pageContentLeft {
+background-color: rgb(120,214,131);
+float: left;
+clear: none;
+height: auto;
+width: 900px;
+}
+
+table.mushi {
+border-collapse: separate;
+width: 98%;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 10px;
+}
+
+table.mushi caption {	
+font-size: 18px;
+padding-top: 20px;	
+padding-bottom: 20px;
+}
+
+table.mushi thead tr th {
+background-color: rgb(120,214,131);
+color: black;
+padding-bottom: 5px;
+}
+
+table.mushi tbody tr td {
+border: 1px solid gray;
+padding: 10px;
+}
+
+table.mushi tbody tr td ul {
+padding-left: 15px;
+}	
+
+table.mushi tbody tr td img {
+float: right;
+padding-left: 15px;
+padding-right: 5px;
+}
+
+table.mushi tr:nth-child(odd) {
+background-color: darkgreen;
+color: white;
+font-family: "Trebuchet MS", Helvetica, sans-serif
+}
+
+table.mushi tr:nth-child(even) {
+background-color: lightgreen;
+}
+
+a#back {
+display: inline-block;
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+text-transform: uppercase;
+font-size: 12px;
+color: rgb(1,64,10);
+padding-left: 10px;
+text-decoration: none;
+margin-bottom: 15px;
+}
+
+a#back:hover {
+color: green;
+}
+
+/* Footer Styles */
+
+pageFooter {
+background-color: rgb(4,104,138);
+float: left;
+clear: none;
+height: 60px;
+width: 900px;
+}
+
+pageFooter ul {
+list-style-type: none;
+}
+
+pageFooter ul li {
+display: inline-block;
+float: left;
+padding: 10px;
+color: white;
+}
+
+pageFooter ul li.designed {
+padding-right: 150px;	
+}
+
+pageFooter ul li a.contact {
+color: white;
+}
+
+pageFooter ul li a.contact:hover {
+color: lightgreen;	
+}	
+
+pageFooter ul.copyright {
+float: right;
+padding-top: 10px;
+}
